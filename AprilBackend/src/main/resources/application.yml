@@ -1,0 +1,21 @@
+server:
+  port: 8200
+ 
+spring:
+  datasource:
+    username: root
+    password: goodhigh
+    url: jdbc:mysql://localhost:3306/tendays?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+        
+mybatis:
+  mapper-locations: classpath:mapping/**/*.xml
+ 
+#showSql
+logging:
+  level:
+    com.hit.cs.april: debug

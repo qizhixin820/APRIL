@@ -1,0 +1,51 @@
+divide t0 by http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#teacherOf
+divide t0 by http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+divide t0 by http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#undergraduateDegreeFrom
+divide t0 by http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#advisor
+divide t0 by http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#publicationAuthor
+divide t0 by http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#memberOf
+divide t0 by http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#emailAddress
+divide t0 by http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#subOrganizationOf
+divide t0 by http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#worksFor
+merge t6 and t1 by t6.s = t1.s;
+merge t3 and t2 by t3.s = t2.s;
+merge t4 and t3 by t4.s = t3.s;
+merge t2 and t1 by t2.o = t1.o;
+merge t4 and t3 by t4.o = t3.o;
+merge t4 and t1 by t4.o = t1.o;
+merge t6 and t4 by t6.o = t4.o;
+merge t5 and t2 by t5.o = t2.o;
+merge t5 and t1 by t5.o = t1.s;
+merge t5 and t4 by t5.o = t4.s;
+merge t3 and t2 by t3.o = t2.s;
+merge t7 and t5 by t7.o = t5.s;
+merge t7 and t2 by t7.s = t2.o;
+merge t4 and t3 by t4.o = t3.s;
+merge t6 and t3 by t6.o = t3.s;
+merge t7 and t6 by t7.s = t6.o;
+merge t5 and t4 by t5.s = t4.o;
+merge t5 and t2 by t5.o = t2.s;
+merge t5 and t1 by t5.o = t1.o;
+merge t9 and t5 by t9.o = t5.o;
+merge t3 and t2 by t3.s = t2.o;
+merge t11 and t7 by t11.s = t7.o;
+merge t6 and t4 by t6.s = t4.o;
+merge t9 and t6 by t9.s = t6.o;
+merge t10 and t4 by t10.s = t4.o;
+merge t11 and t5 by t11.o = t5.o;
+merge t10 and t6 by t10.o = t6.s;
+merge t11 and t2 by t11.s = t2.o;
+merge t5 and t3 by t5.s = t3.s;
+merge t10 and t1 by t10.o = t1.s;
+merge t11 and t8 by t11.bo = t8.o;
+divide t0 by http://www.lehigh.edu/~zhp2/2004/0401/univ-bench.owl#name
+merge t11 and t5 by t11.bs = t5.s;
+merge t12 and t4 by t12.o = t4.s;
+merge t4 and t2 by t4.s = t2.s;
+merge t13 and t6 by t13.s = t6.s;
+merge t11 and t9 by t11.bs = t9.o;
+merge t3 and t1 by t3.o = t1.o;
+merge t4 and t3 by t4.s = t3.o;
+merge t4 and t2 by t4.s = t2.o;
+merge t7 and t4 by t7.o = t4.s;
+15.702757120132446

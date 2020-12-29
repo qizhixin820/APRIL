@@ -1,0 +1,6 @@
+'max_tnum', (0, 5)
+'hashtp', (512, 1076)
+'table_attributes', (2048, 425)
+'hashtp2', (2560, 4184)
+'hashtp3', (7168, 2864)
+'empty_action_list', (10240, 1519)

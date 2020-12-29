@@ -1,0 +1,4 @@
+?X ub:takesCourse <http://www.Department0.University0.edu/GraduateCourse0>
+?X rdf:type ub:GraduateStudent .
+10119 ms
+**********

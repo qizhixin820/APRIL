@@ -1,0 +1,3 @@
+create hash index on s on t0
+create hash index on s on t1
+create hash index on s on t2

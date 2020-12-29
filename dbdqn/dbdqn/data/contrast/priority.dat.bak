@@ -1,0 +1,1 @@
+'Select a.s from graph a join graph b on a.s = b.s join graph c on b.o = c.s where a.p = "type" and a.o = "senior user" and b.p = "comment" and c.p = "topic" and c.o = "æ\x98\x8eæ\x98\x9f";', (0, 757)
